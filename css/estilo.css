@@ -279,13 +279,14 @@ h2 {
   
 .texto {
     font-size: 30px;
-    padding: 20px;
+    padding: 10px;
     color: rgb(0, 0, 0);
     font-family: 'Montserrat', sans-serif;
     text-align: left;
     margin-left: 10%;
     margin-right: 20%;
-    margin-bottom: 50px; }
+    margin-bottom: 50px; 
+}
   
 
 
@@ -379,26 +380,59 @@ input, textarea {
 
 .footer {
     width: 100%;
-    display: -ms-grid;
-    display: grid; }
-  
-footer {
+    height: 300px;
     background-color: black;
-    margin-bottom: 0px;
-    padding: 0%; }
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center; 
+   
+}
+  
+.pages-footer a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
 
 footer h3 {
-    font-size: 30px;
+    font-size: 25px;
     padding: 15px;
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     text-align: center; }
 
-.row-footer {
-    display: flex;
-    justify-content: center; }
 
 footer img {
     width: 60px;
-    padding: 10px; }
+    padding: 10px;
+}
+
+.redes-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.medios-de-pago {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+    /*TERMINOS Y CONDICIONES DE USO*/
+
+.legales {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    text-align: justify;
+    margin: 20px;
+    padding: 70px;
+}
+
