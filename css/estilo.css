@@ -90,14 +90,6 @@ h2 {
     }
 }
 
-@media (max-width:360px) {
-    
-    .cta-inicio {
-        margin: 0;
-        padding: 0;
-    }
-}
-
 .imagen-inicio {
     filter:grayscale(1);
 }
