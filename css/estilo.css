@@ -45,23 +45,13 @@
     background-color: rgb(233, 233, 233);
 }
 
-.cta-inicio {
-    width: 90%;
-    margin: auto;
-    margin-bottom: 100px;
-    padding: 5px;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 10px;
-}
-
 .cta-inicio img {
         width: 100%;
 }
 
 .cta-inicio {
     width: 90%;
-    
+    margin: auto;
     margin-bottom: 100px;
     padding: 5px;
     display: grid;
@@ -97,6 +87,14 @@ h2 {
         align-items: center;
         background-color: rgb(233, 233, 233);
         padding: 50px;
+    }
+}
+
+@media (max-width:360px) {
+    
+    .cta-inicio {
+        margin: 0;
+        padding: 0;
     }
 }
 
