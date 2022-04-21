@@ -50,17 +50,17 @@
 }
 
 .cta-inicio {
-    width: 90%;
     margin: auto;
     margin-bottom: 100px;
-    padding: 5px;
+    padding: 20px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 10px;
 }
 
 .section-productos {
-    margin: 50px;
+    margin-top: 150px;
+    margin-bottom: 100px;
 }
 
 h2 {
