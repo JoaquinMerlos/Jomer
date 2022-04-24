@@ -319,14 +319,6 @@ h2 {
   margin-bottom: 100px;
 }
 
-
-.margin-text {
-  margin-top: 100px;
-  margin-left: 100px;
-}
-
-
-
 @media (max-width: 1090px){
   .container-form {
       display: flex;
@@ -335,6 +327,7 @@ h2 {
       align-items: center;
   }
 }
+
 form {
   background-color: white;
   padding: 20px;
@@ -369,7 +362,6 @@ input, textarea {
   margin-bottom: 10px;
   color: white; }
 
-
 .titulo-contacto {
   font-size: 25px;
   padding: 5%;
@@ -380,7 +372,6 @@ input, textarea {
   margin-left: 8%; }
 
 .texto-contacto {
-  
   font-size: 20px;
   padding: 20px;
   color: rgb(0, 0, 0);
