@@ -16,8 +16,11 @@
   margin: 20px;
 }
 
-.iconos input {
-  width: 100px;
+@media (max-width:1090px) {
+  .iconos img{
+    width: 25px;
+    margin: 5px;
+  }
 }
 
 .logo {
