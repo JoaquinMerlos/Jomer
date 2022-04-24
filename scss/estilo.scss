@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.iconos {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding: 20px;
+}
+
+.iconos img{
+    width: 35px;
+    margin: 20px;
+}
+
+.iconos input {
+    width: 100px;
+}
+
+.logo {
+    width: 50vw;
+    display:block;
+    margin:auto;
+    padding: 1vw;
+}
+
+.margin {
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.nav {
+    font-size: 1.8em;
+    font-family: 'Montserrat', sans-serif;
+    &:hover {
+        background-color: rgb(20, 20, 20);
+        color: white !important;
+      }
+}
+
